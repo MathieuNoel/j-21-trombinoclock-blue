@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "name": "trombinoclock-blue",
+  "description": "## Gestion de projet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon .",
+    "resetDB": "psql -U trombi -d trombi -f data/create_db.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Daguerre/trombinOclock-blue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Daguerre/trombinOclock-blue/issues"
+  },
+  "homepage": "https://github.com/O-clock-Daguerre/trombinOclock-blue#readme"
+}
