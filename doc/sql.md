@@ -25,3 +25,24 @@
   SELECT * FROM "student" WHERE "last_name" ILIKE '%max%' OR "first_name" ILIKE '%max%';
 
 ```
+
+```SQL
+  -- Insérer dans la table "student" un étudiant qui s'appelle "Chuck Norris" appartenant à la promo 5
+  INSERT INTO "student" ("first_name","last_name","promo_id") VALUES ("Chuck","Norris",5);
+
+```
+
+```SQL
+  --Insérer dans la table "promo" une promo qui s'appelle "César" et ne possède pas d'orga
+  INSERT INTO "promo" ("name") VALUES ("César");
+``` 
+
+```SQL
+  --Mettre à jour la promo 5 pour la renommer "Cleo"
+  UPDATE "promo" SET name="Cleo" WHERE "id"= 5; 
+```
+
+```SQL
+  --Supprimer la promo 123
+  DELETE FROM 'promo" WHERE "id"= 123;
+```
