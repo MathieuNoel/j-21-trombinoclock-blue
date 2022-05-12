@@ -34,7 +34,7 @@
 
 ```SQL
   --Insérer dans la table "promo" une promo qui s'appelle "César" et ne possède pas d'orga
-  INSERT INTO "promo" ("name") VALUES ("César");
+  INSERT INTO "promo" ("id","name") VALUES (440,"César");
 ``` 
 
 ```SQL
@@ -44,5 +44,5 @@
 
 ```SQL
   --Supprimer la promo 123
-  DELETE FROM 'promo" WHERE "id"= 123;
+  DELETE FROM "promo" WHERE "id"= 123;
 ```
